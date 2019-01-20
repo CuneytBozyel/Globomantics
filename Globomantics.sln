@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globomantics", "Globomantics\Globomantics.csproj", "{D638AF1F-36AF-4CF4-B64E-48BEE38302DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D638AF1F-36AF-4CF4-B64E-48BEE38302DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D638AF1F-36AF-4CF4-B64E-48BEE38302DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D638AF1F-36AF-4CF4-B64E-48BEE38302DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D638AF1F-36AF-4CF4-B64E-48BEE38302DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19DF3338-722B-427C-86D6-254D8B9CFF1D}
+	EndGlobalSection
+EndGlobal
