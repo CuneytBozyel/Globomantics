@@ -11,13 +11,34 @@
                 <th>Attendees</th>
                 <th>Actions</th>
             </tr>
-            @Html.DisplayForModel()
+
+            @foreach (var item in Model)
+            {
+            <tr>
+                <th>
+                    @item.Name
+                </th>
+                <th>
+                    @item.Location
+                </th>
+                <th>
+                    @item.Start
+                </th>
+                <th>
+                    @item.AttendeeTotal
+                </th>
+                <th>
+                    @item.AttendeeTotal
+                </th>
+            </tr>
+            }
+            @*@Html.DisplayForModel()*@
         </table>
     </div>
 </div>
 <div class="row">
     <div class="col-md-2">
-        @*@await Component.InvokeAsync("Statistics")*@
+        @await Component.InvokeAsync("Statistics")
     </div>
     <div class="col-md-4">
         <a asp-action="Add">Add</a>
