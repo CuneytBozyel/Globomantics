@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-
-namespace Globomantics
+namespace GlobomanticsApi
 {
     public class Program
     {
@@ -13,10 +12,7 @@ namespace Globomantics
 
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
-                .UseUrls("http://localhost:44311")
                 .UseStartup<Startup>()
                 .Build();
     }
 }
-
-

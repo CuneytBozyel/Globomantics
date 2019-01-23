@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Globomantics", "Globomantics\Globomantics.csproj", "{D638AF1F-36AF-4CF4-B64E-48BEE38302DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics", "Globomantics\Globomantics.csproj", "{D638AF1F-36AF-4CF4-B64E-48BEE38302DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{5380882F-E28C-469E-BF2D-C0E08FA4D424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{5380882F-E28C-469E-BF2D-C0E08FA4D424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobomanticsApi", "GlobomanticsApi\GlobomanticsApi.csproj", "{B2BBF88D-0C00-4429-A5F7-A78E469DD0AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5380882F-E28C-469E-BF2D-C0E08FA4D424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5380882F-E28C-469E-BF2D-C0E08FA4D424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5380882F-E28C-469E-BF2D-C0E08FA4D424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BBF88D-0C00-4429-A5F7-A78E469DD0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BBF88D-0C00-4429-A5F7-A78E469DD0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BBF88D-0C00-4429-A5F7-A78E469DD0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BBF88D-0C00-4429-A5F7-A78E469DD0AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
